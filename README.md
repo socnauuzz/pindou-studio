@@ -12,11 +12,11 @@
 
 ## 本地运行
 
-\`\`\`bash
+```bash
 npm install
 npm run dev
-\`\`\`
+```
 
-网站使用 Vinext/React，并为 Cloudflare D1 卡密数据库提供迁移文件。生产环境需配置 \`DB\` 数据库绑定和 \`ADMIN_SECRET\` 管理密码。
+网站使用 Vinext/React，并为 Cloudflare D1 卡密数据库提供迁移文件。生产环境需配置 `DB` 数据库绑定和 `ADMIN_SECRET` 管理密码。
 
 > 注意：GitHub Pages 只能托管静态前端，不能直接运行本项目的卡密 API 与数据库。完整版本应部署到支持 Cloudflare Workers/D1 的运行环境。
